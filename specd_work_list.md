@@ -21,7 +21,6 @@ POPULATED BY: /specd:audit command, /specd:review-intake command, and humans dur
 
 ## project-setup v0.1
 
-- [ ] Set up Sinatra app with modular style (Gemfile, config.ru, app.rb, Puma)
 - [ ] Configure SQLite with ActiveRecord and sinatra-activerecord (database.yml, Rakefile with db tasks)
 - [ ] Add rack-cors middleware for frontend dev servers
 - [ ] Implement JSON API response helpers (success/error wrappers, content-type)
@@ -38,7 +37,7 @@ POPULATED BY: /specd:audit command, /specd:review-intake command, and humans dur
 - [ ] Create users table migration (blocked: SQLite + ActiveRecord setup)
 - [ ] Create refresh_tokens table migration (blocked: users table)
 - [ ] Implement User model with validations
-- [ ] Set up OmniAuth with Google and GitHub strategies (blocked: Sinatra app setup)
+- [ ] Set up OmniAuth with Google and GitHub strategies
 - [ ] Implement OAuth callback handler — find or create user, issue tokens
 - [ ] Implement JWT token generation and verification (access tokens)
 - [ ] Implement refresh token generation with BCrypt hashing
