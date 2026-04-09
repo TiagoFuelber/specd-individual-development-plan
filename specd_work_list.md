@@ -21,7 +21,6 @@ POPULATED BY: /specd:audit command, /specd:review-intake command, and humans dur
 
 ## project-setup v0.1
 
-- [ ] Configure SQLite with ActiveRecord and sinatra-activerecord (database.yml, Rakefile with db tasks)
 - [ ] Add rack-cors middleware for frontend dev servers
 - [ ] Implement JSON API response helpers (success/error wrappers, content-type)
 - [ ] Implement GET /health endpoint
@@ -34,7 +33,7 @@ POPULATED BY: /specd:audit command, /specd:review-intake command, and humans dur
 
 ## authentication v0.1
 
-- [ ] Create users table migration (blocked: SQLite + ActiveRecord setup)
+- [ ] Create users table migration
 - [ ] Create refresh_tokens table migration (blocked: users table)
 - [ ] Implement User model with validations
 - [ ] Set up OmniAuth with Google and GitHub strategies
